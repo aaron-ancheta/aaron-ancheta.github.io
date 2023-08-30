@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pnl-logo.png
+image: img/sudoku-solver.png
 title: "Fill in the Box... Recursively"
 date: 2023
 published: true
@@ -10,10 +10,10 @@ labels:
 summary: "Implemented a method `fillSudoku` that solves a Sudoku problem primarily through recursion."
 ---
 
-When I first started working at the Department of Indo-Pacific Languages and Literatures (IPLL) at UH Manoa, I redesigned the Pamana ng Lahi website and gave it a new look. I also updated the contents and made a new logo to match the purpose of the website. 
-## My reflection
-This was my first time working with Weebly and my initial thought was that it is very limiting and less intuitive to use compared to other website builders I have used. This prompted me to learn HTML and CSS so that I could build a website of my own liking in the future, or better yet, rebuild the Pamana ng Lahi Website.
+In my ICS 211 class, we discussed about different data structures and some algorithms. We were using Java as the primary programming language and in one of our homeworks, we were asked to implement a recursive method called `fillSudoku` which , as the name suggests, aims to fill a sudoku correctly.  
 
+## Reflection
+It was very hard at first to grasp the concept of recursion as we have been using just a bunch of if-else statements to solve homework problems. However, when I gained a bit more understanding about how recursion works through a PANDA (one of the ACM Manoa organizations) meeting, I was able to appreciate it more and I was able to accomplish this particular homework.
 
 ```java
 public static boolean fillSudoku (int [] [] sudoku)
