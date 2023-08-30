@@ -6,7 +6,7 @@
     "email": "alra@hawaii.edu",
     "phone": "808-346-9865",
     "website": "https://aaron-ancheta.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "summary": "I am a junior studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I am currently working as a Web Designer/Illustrator at the Department of Indo-Pacific Languages and Literatures (IPLL) at UH Manoa. My date of graduation is expected to be on Spring 2025.",
     "location": { "address": "", "postalCode": "96819", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "aaron-ancheta", "url": "http://github.com/aaron-ancheta" },
@@ -16,6 +16,7 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Cybersecurity" },
+    { "name": "Artificial Intelligence"},
     { "name": "Creative Media" },
     { "name": "Volleyball" }
   ],
