@@ -16,7 +16,7 @@ Since the previous logo looks a bit dated, I was given a task to create a new lo
 
 Here is the previous logo:
 
-
+<img src = ""
 
 This is the logo I made:
 
