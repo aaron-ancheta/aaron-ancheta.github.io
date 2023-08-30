@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/sudoku-solver.png
-title: "Fill in the Box... Recursively"
+title: "Sudoku Solver || Java"
 date: 2023
 published: true
 labels:
