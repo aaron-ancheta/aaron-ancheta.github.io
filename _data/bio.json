@@ -36,7 +36,6 @@
       "area": "Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
       "startDate": "2022-08-22",
-      "grade" : "GPA: 3.76",
       "endDate": "Present",
       "courses": [ "ICS 111", "ICS 211"
       ]
@@ -56,27 +55,27 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Walmart - Lihue",
+      "position": "Sales Associate",
+      "website": "",
+      "startDate": "2021-11-22",
+      "endDate": "2022-06-09",
+      "summary": "Worked in the entertainment department where I assisted customers in their tech purchase",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Managed photo lab orders(regular photos, greeting cards, and assembled special orders like framed canvas, board prints, and photobooks",
+        "Learned how to handle various types of customers and gained better customer service skills."
       ]
     }
   ],
-  "volunteer": [
+   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
+      "//organization": "Center for Renewable Energy and Island Sustainability",
+      "//website": "http://manoa.hawaii.edu/reis",
+      "//position": "Software Developer",
+      "//startDate": "2016-01-01",
+      "//endDate": "Present",
+      "//summary": "Lead developer for weather sensing project",
+      "//highlights": [
         "Design firmware for distributed weather sensor network",
         "Maintain custom data collection and storage infrastructure"
       ]
