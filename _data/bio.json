@@ -22,36 +22,37 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages",
+      "keywords": [ "Java", "Javascript", "Python", "HTML" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2022-08-22",
+      "grade" : "GPA: 3.76",
       "endDate": "Present",
-      "courses": [
+      "courses": [ "ICS 111", "ICS 211"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Department of Indo-Pacific Languages and Literatures at UH Manoa",
+      "position": "Web Designer/Illustrator",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-02-18",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Web designer and Illustrator at IPLL department at UH Manoa",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain, update, and oversee the official website for the IPLL Department",
+        "Design and creates logo and other digital arts neccessary for the department"
       ]
     },
     {
