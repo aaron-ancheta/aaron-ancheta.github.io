@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Looking for the Right Key? Not Easy!"
+title: "Finding the Right Key Unlocks Knowledge"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-07
 published: true
@@ -25,7 +25,7 @@ We can only open the door right before us when we find the right key. This is wh
 
 ## Conclusion
 
-Ideally, software development is not done by only one individual. Most software programs that changed the world were created by people collaborating, learning from each other, and solving problems through meetings and brainstorming. In between these processes, I believe, are questions being thrown to provoke everyone's mind to think differently or to satisfy one's curiosity. This is why, as future software developers (possibly), we should not waste our bountiful resources and ask questions to help us get unstuck or have a different perspective on the problems that arise. However, just as wrong keys won't open a door for you, asking a stupid question won't get you a keen answer either.
+Ideally, software development is not done by only one individual. Most software programs that changed the world were created by people collaborating, learning from each other, and solving problems through meetings and brainstorming. In between these processes, I believe, are questions being thrown to provoke everyone's mind to think differently or to satisfy one's curiosity. This is why, as future software developers (possibly), we should not waste our bountiful resources and ask questions to help us get unstuck or have a different perspective on the problems that arise. However, at the same time, we must remember that just as wrong keys won't open a door for us, asking a stupid question won't get us a keen answer either.
 <!--<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg"> -->
 
 
