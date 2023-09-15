@@ -20,7 +20,7 @@ I forgot about Python, but I already had the intuition on how to use variables a
 
 ## This way to First Class
 
-<img width = "400px" class = "rounded float-start pe-4" src = "../img/takeoff.jpg">
+<img width = "200px" class = "rounded float-start pe-4" src = "../img/takeoff.jpg">
 One academic year later, I am greeted `console.log("We invite you to first-class lane");`. Yes, you are right again; on the first week of my Fall 2023 semester, we had to learn a somehow different programming language called JavaScript. I said somehow because it kind of resembles Java's syntax in some ways. However, as I spent more time with it, I came to realize that a lot of things are made easier to do in JavaScript. I no longer have to specify the type when declaring variables, and I could also assign a function to a variable -- which relates to why people say JavaScript has first-class functions. I have also researched things about JavaScript prior to taking my ICS 314 class, that it is one of the main languages used in developing web applications. It is only the first two weeks of my semester at the time of writing, and I still have a lot to learn, especially in JavaScript, but the limited time I have spent with JavaScript felt as if I was upgraded to first-class seat after checking in. Of course, this is not possible in real life, so I better stop dreaming about it actually happening and start practicing for my Workout of the Day (WOD) tomorrow.
 
 
