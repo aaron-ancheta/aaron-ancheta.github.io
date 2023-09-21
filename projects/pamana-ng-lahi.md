@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pnl-logo.png
+image: img/project-photos/pnl-logo.png
 title: "Pamana ng Lahi website"
 date: 2023
 published: true
