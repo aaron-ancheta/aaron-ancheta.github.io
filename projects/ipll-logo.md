@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ipll-logo.png
+image: img/project-photos/ipll-logo.png
 title: "IPLL's New Logo"
 date: 2023
 published: true
