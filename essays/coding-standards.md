@@ -17,7 +17,7 @@ When I first started coding, I could not help but be fascinated by how the stuff
 
 ## What's This @param Thing Doing Here?
 <p>
-<img width="200px" class="rounded float-end pe-4" src="img/essay-photos/param.png">
+<img width="200px" class="rounded float-end pe-4" src="../img/essay-photos/param.png">
 As a person who quickly forgets things, I typically jot down as many details as possible and make notes like "This Thing A performs Action B." This helped me a lot to get through my Biology classes in senior high school. As we got deeper into ICS 111, we were introduced to commenting, a principle in programming that aims to describe individual parts of a code (methods or functions, classes, etc.) to make it easier for others to understand what that particular block of code or function does. As someone who likes to be detailed when noting things, I studied how to properly make comments in Java and applied it to my homework projects despite it not being a requirement. Of course, I would still often make comments that do not adhere to the "standards," but I at least ensure that it would serve as a helpful guide when reading my code. 
 </p>
 
