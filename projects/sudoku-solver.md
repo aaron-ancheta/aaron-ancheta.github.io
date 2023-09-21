@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sudoku-solver.png
+image: img/project-photos/sudoku-solver.png
 title: "Sudoku Solver || Java"
 date: 2023
 published: true

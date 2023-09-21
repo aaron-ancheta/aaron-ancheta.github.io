@@ -13,7 +13,7 @@ labels:
 ## Keys and Questions: an Analogy.
 
 
-<img width = "400px" class = "rounded float-start pe-4" src = "../img/keys-equal-questions.png">
+<img width = "400px" class = "rounded float-start pe-4" src = "../img/essay-photos/keys-equal-questions.png">
 Have you ever been in a situation where you are in a rush and trying to open a door, but then you have this bundle of keys and do not know which one opens the door? I think most of us, if not all, had a similar experience like this. Looking for the right key to open the door, among other keys, is a solid analogy to formulating the right question in software engineering. With the rapid growth of the software engineering industry, problem-solving, programming languages, and concepts are bound to get more complicated (and it is already complex right off the bat). In connection with this, asking for help from other people who know more about the field (many of them exist) might not be a bad idea if you find your back against the wall solving a problem or figuring out the hows of a new programming language you are trying to learn. Therefore, asking questions the smart way is vital to a computer programmer trying to venture into the deep and confusing world of software development, along with good problem-solving skills and solid logical thinking. However, mastering this skill may not be as easy as it sounds, based on "How to Ask Questions The Smart Way" by Eric Steven Raymond. 
 
 ## Why won't the Door Open?

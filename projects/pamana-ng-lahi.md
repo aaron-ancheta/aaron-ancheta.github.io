@@ -17,11 +17,11 @@ This was my first time working with Weebly and my initial thought was that it is
 
 
 ### Pamana ng Lahi front page
-<img width="800px" class = "img-fluid" src = "../img/overview-of-pnl.png" alt = "Pamana ng Lahi front page">
+<img width="800px" class = "img-fluid" src = "../img/project-photos/overview-of-pnl.png" alt = "Pamana ng Lahi front page">
 
 ### Logo
 
-<img width="400px" class = "img-fluid" src = "../img/pnl-logo.png" alt = "Pamana ng Lahi logo">
+<img width="400px" class = "img-fluid" src = "../img/project-photos/pnl-logo.png" alt = "Pamana ng Lahi logo">
 
 
 
