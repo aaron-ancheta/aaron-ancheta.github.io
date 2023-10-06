@@ -34,17 +34,6 @@ h1,h2,h3,h4,h5 {
   fill: var(--tf-icon-hover);
 }
 
-.ui.text.container {
-  margin-inline: auto;
-  max-width: 700px;
-}
-
-@media only screen and (min-width: 1200px)
-  .ui.container {
-    width: 1127px;
-    margin-inline:auto!important;
-  }
-
 a {
   text-decoration: none;
 }
