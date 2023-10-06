@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5 {
 @media only screen and (min-width: 1200px)
   .ui.container {
     width: 1127px;
-    margin-inline:auto;
+    margin-inline:auto!important;
   }
 
 a {
