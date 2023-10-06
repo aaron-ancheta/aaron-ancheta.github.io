@@ -29,16 +29,9 @@ Even though I was still uncomfortable with CSS, I had to move forward and learn 
 I was able to replicate the first scroll of the front page of Bellroy to complete my YourChoice homework (homework that required us to choose a website to recreate using Bootstrap) as shown below:
 </p>
 
-<div class="container">
-    <div class="row align-items center">
-        <div class="col">
-            <img src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
-        </div>
-        <div class="col">
-            <img src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
-        </div>
-    </div>
-</div>
+<img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
+<img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
+
 
 <p>
 Nonetheless, I knew that my understanding of the overall process web designing with Bootstrap was still shallow. Therefore, I spent more time learning it, and I tried redoing Murphy's web page, which I failed to finish on time during the practice WOD in class. 
