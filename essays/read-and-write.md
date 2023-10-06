@@ -31,11 +31,11 @@ I was able to replicate the first scroll of the front page of <a target="_blank"
 
 <div class="container">
 <div class="row align-items-center justify-content-center">
-<div class="col">
+<div class="col align-items-center">
 <img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
 <h3 class="text-center">Original</h3>
 </div>
-<div class="col">
+<div class="col align-items-center">
 <img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
 <h3 class="text-center">Replica</h3>
 </div>
