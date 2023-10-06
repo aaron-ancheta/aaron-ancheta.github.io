@@ -29,14 +29,14 @@ Even though I was still uncomfortable with CSS, I had to move forward and learn 
 I was able to replicate the first scroll of the front page of <a target="_blank" href="https://bellroy.com/">Bellroy</a> to complete my YourChoice homework (homework that required us to choose a website to recreate using Bootstrap) as shown below:
 </p>
 
-<div class="container justify-content-center">
-<div class="row align-items-center justify-content-center">
+<div class="container">
+<div class="row justify-content-center">
 <div class="col justify-content-center">
-<img width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
+<img class="rounded mx-auto d-block" width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
 <h3 class="text-center">Original</h3>
 </div>
 <div class="col justify-content-center">
-<img width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
+<img class="rounded mx-auto d-block" width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
 <h3 class="text-center">Replica</h3>
 </div>
 </div>
@@ -47,11 +47,11 @@ Nonetheless, I knew that my understanding of the overall process web designing w
 <div class="container justify-content-center">
 <div class="row align-items-center justify-content-center">
 <div class="col justify-content-center">
-<img width="400px" src="../img/essay-photos/read-and-write-photos/murphy-prof.png">
+<img class="rounded mx-auto d-block" width="400px" src="../img/essay-photos/read-and-write-photos/murphy-prof.png">
 <h3 class="text-center">Professor's Version</h3>
 </div>
 <div class="col justify-content-center">
-<img width="400px" src="../img/essay-photos/read-and-write-photos/murphy-mine.png">
+<img class="rounded mx-auto d-block" width="400px" src="../img/essay-photos/read-and-write-photos/murphy-mine.png">
 <h3 class="text-center">My Version</h3>
 </div>
 </div>
