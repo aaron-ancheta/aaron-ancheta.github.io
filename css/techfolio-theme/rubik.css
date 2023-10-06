@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5 {
   fill: var(--tf-icon-hover);
 }
 
-.container {
+.ui.text.container {
   margin-inline: auto;
   max-width: 700px;
 }
