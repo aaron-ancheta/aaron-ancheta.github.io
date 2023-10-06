@@ -32,11 +32,11 @@ I was able to replicate the first scroll of the front page of <a target="_blank"
 <div class="container">
 <div class="row align-items-center justify-content-center">
 <div class="col align-items-center">
-<img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
+<img class="ms-4" width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-official.png">
 <h3 class="text-center">Original</h3>
 </div>
 <div class="col align-items-center">
-<img width="500px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
+<img class="ms-4" width="400px" src="../img/essay-photos/read-and-write-photos/bellroy-replica.png">
 <h3 class="text-center">Replica</h3>
 </div>
 </div>
@@ -44,6 +44,18 @@ I was able to replicate the first scroll of the front page of <a target="_blank"
 <p>
 Nonetheless, I knew that my understanding of the overall process web designing with Bootstrap was still shallow. Therefore, I spent more time learning it, and I tried redoing Murphy's web page, which I failed to finish on time during the practice WOD in class. 
 </p>
+<div class="container">
+<div class="row align-items-center justify-content-center">
+<div class="col align-items-center">
+<img class="ms-4" width="400px" src="../img/essay-photos/read-and-write-photos/murphy-prof.png">
+<h3 class="text-center">Professor's Version</h3>
+</div>
+<div class="col align-items-center">
+<img class="ms-4" width="400px" src="../img/essay-photos/read-and-write-photos/murphy-mine.png">
+<h3 class="text-center">My Version</h3>
+</div>
+</div>
+</div>
 <p>
 During the process of replicating Murphy's web page, I became more aware of how things work as I did a lot of documentation reading and watching YouTube tutorials at the same time. After this, I became more confident about the upcoming WOD. I was also finally able to confirm what my professor said about how Bootstrap could make the web design process easier.
 </p>
