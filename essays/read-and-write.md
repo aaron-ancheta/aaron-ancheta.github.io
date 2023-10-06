@@ -10,6 +10,7 @@ labels:
   - UI Frameworks
   - Reflection
 ---
+<div class="container mx-5">
 
 ## Learning Web Design Is Like Learning New Programming Language
 
@@ -23,7 +24,7 @@ Even though I was still uncomfortable with CSS, I had to move forward and learn 
 
 ## I Learn By Doing
 
-<div>
+
 <p>
 I was able to replicate the first scroll of the front page of Bellroy to complete my YourChoice homework (homework that required us to choose a website to recreate using Bootstrap) as shown below:
 </p>
@@ -33,12 +34,12 @@ Nonetheless, I knew that my understanding of the overall process web designing w
 <p>
 During the process of replicating Murphy's web page, I became more aware of how things work as I did a lot of documentation reading and watching YouTube tutorials at the same time. After this, I became more confident about the upcoming WOD. I was also finally able to confirm what my professor said about how Bootstrap could make the web design process easier.
 </p>
-</div>
+
 
 ## Conclusion
 
 <p>
 This experience from the two weeks of dealing with UI design filled with writing HTML, CSS, and implementing Bootstrap made me realize that there is no single right way when it comes to web design, which is also probably the reason why each YouTube tutorial offered different ways of styling like what I mentioned; I personally took a different approach into making Murphy's web page compared to my professor's solution-- this arguably made me learn so much more. In conclusion, I firmly believe that HTML, CSS, and Bootstrap are best learned when you are implementing them at the same time, which was the missing factor and the reason why I stayed an unskilled web designer all this time.
 </p>
-
+</div>
 
