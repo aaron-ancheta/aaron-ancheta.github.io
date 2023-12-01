@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Kitchen and Dance Floor: Places to Understand Design Patterns"
 # All dates must be YYYY-MM-DD format!
-date: 2023-11-21
+date: 2023-11-30
 published: true
 labels:
   - Design Patterns
@@ -11,7 +11,7 @@ labels:
 ---
 
 ## Design Patterns?
-<img width="190px" class="float-start me-3 rounded" src="../img/essay-photos/patterns.jpg" alt="ai">
+<img width="200px" class="rounded" src="../img/essay-photos/patterns.jpg" alt="ai">
 In the realm of software development, design patterns act as guiding principles, offering a structured approach to solving common problems. When we discuss design patterns, we're essentially exploring the best ways to compose code—similar to how a chef blends ingredients for a delicious dish. In this context, let's dive into the world of Model-View-Controller (MVC), a practical approach that I've found immensely useful in my role as a front-end developer for our final project.
 
 
