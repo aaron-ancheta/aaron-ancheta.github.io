@@ -1,17 +1,18 @@
 ---
 layout: essay
 type: essay
-title: "Kitchen and Dance Floor: Places to Understand Design Patterns"
+title: "Coding Odyssey: My Journey in Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2023-12-12
 published: true
 labels:
   - Software Engineering
-  - MVC
+  - Creative
+  - Agile
 ---
 
 ## Introduction
-<img width="200px" class="float-end me-3 rounded" src="../img/essay-photos/softeng.jpg" alt="ai">
+<img width="300px" class="float me-3 rounded" src="../img/essay-photos/softeng.jpg" alt="ai">
 
 Looking back at my ICS 314 Software Engineering class this semester, I can't help but marvel at the rollercoaster of experiences that has shaped me into a different kind of developer. It all kicked off with the intriguing world of JavaScript, a language that unexpectedly stole the spotlight from my Java comfort zone. From there, we dove headfirst into HTML, CSS, Bootstrap, React, MongoDB, and Meteor, ultimately culminating in an unforgettable ride at the Hawaii Annual Code Challenge 2023 (HACC 2023), where our skills were put to the test in the real world.
 
