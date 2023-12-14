@@ -10,11 +10,12 @@ labels:
 summary: "Implemented a method `fillSudoku` that solves a Sudoku problem primarily through recursion."
 ---
 
-In my ICS 211 class, we discussed about different data structures and some algorithms. We were using Java as the primary programming language and in one of our homeworks, we were asked to implement a recursive method called `fillSudoku` which , as the name suggests, aims to fill a sudoku correctly.  
+In my ICS 211 class, we discussed about different data structures and some algorithms. We were using Java as the primary programming language and in one of our homeworks, we were asked to implement a recursive method called `fillSudoku` which, as the name suggests, aims to fill a sudoku correctly.
 
 ## Reflection
-It was very hard at first to grasp the concept of recursion as we have been using just a bunch of if-else statements to solve homework problems. However, when I gained a bit more understanding about how recursion works through a PANDA (one of the ACM Manoa organizations) meeting, I was able to appreciate it more and I was able to accomplish this particular homework.
+It took a lot of work to grasp the concept of recursion initially, as we have been using just a bunch of if-else statements to solve homework problems before learning about recursion. However, when I gained an understanding of how recursion works through a PANDA (one of the ACM Manoa organizations) meeting, I was able to appreciate it more, and I was able to accomplish this particular homework.
 
+## Code Snippet
 ```java
 public static boolean fillSudoku (int [] [] sudoku)
   {
@@ -69,7 +70,5 @@ public static boolean fillSudoku (int [] [] sudoku)
   }
 
 ```
-
-
-
-<!--You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857). -->
+## Result
+<img width="300px" src="../img/project-photos/sudoku-sol.png" alt="sudoku-solver-result">
