@@ -10,7 +10,7 @@ labels:
   - Agile
 summary: "Collaborated with a team and created Sustainer, a reusable takeout program app for Zero Waste Oahu, in the recently concluded Hawaii Annual Code Challenge 2023."
 ---
-<img width="800px" src="../img/project-photos/sustainer-homepage.png" alt="sustainer-homepage">
+<img style="justify-content: center" width="800px" src="../img/project-photos/sustainer-homepage.png" alt="sustainer-homepage">
 
 During the Hawaii Annual Code Challenge, I assumed the role of UI designer and front-end developer within my team in creating <a href="https://sus-tainer.github.io/" target="_blank">Sustainer</a>, our solution to Zero Waste Oahu's need of a reusable takeout program app. My primary responsibility was to ensure the optimal performance of our web application on mobile devices, necessitating the implementation of a mobile-first design approach while maintaining an aesthetically pleasing interface. While initially challenging, particularly in navigating the dual demands of mobile and desktop design and grappling with the intricacies of the CSS box model, my persistent dedication and ongoing learning efforts allowed me to triumph in my role.
 
