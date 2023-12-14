@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Aaron Lander Ancheta",
+    "label": "Student",
+    "picture": "https://github.com/aaron-ancheta.png",
+    "email": "alra@hawaii.edu",
+    "phone": "",
+    "website": "https://aaron-ancheta.github.io",
+    "summary": "I am a junior studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I am currently working as a Web Designer/Illustrator at the Department of Indo-Pacific Languages and Literatures (IPLL) at UH Manoa. My date of graduation is expected to be on Spring 2025.",
+    "location": { "address": "", "postalCode": "96819", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "aaron-ancheta", "url": "http://github.com/aaron-ancheta" },
+      { "network": "linkedin", "username": "aaronancheta", "url": "http://linkedin.com/in/aaronancheta" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Cybersecurity" },
+    { "name": "Artificial Intelligence"},
+    { "name": "Creative Media" },
+    { "name": "Volleyball" }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [ "Java", "Javascript", "Python", "HTML" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "courses": [ "ICS 111", "ICS 211"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Department of Indo-Pacific Languages and Literatures at UH Manoa",
+      "position": "Web Designer/Illustrator",
+      "website": "",
+      "startDate": "2023-02-18",
+      "endDate": "Present",
+      "summary": "Web designer and Illustrator at IPLL department at UH Manoa",
+      "highlights": [
+        "Maintain, update, and oversee the official website for the IPLL Department",
+        "Design and creates logo and other digital arts neccessary for the department"
+      ]
+    },
+    {
+      "company": "Walmart - Lihue",
+      "position": "Sales Associate",
+      "website": "",
+      "startDate": "2021-11-22",
+      "endDate": "2022-06-09",
+      "summary": "Worked in the entertainment department where I assisted customers in their tech purchase",
+      "highlights": [
+        "Managed photo lab orders(regular photos, greeting cards, and assembled special orders like framed canvas, board prints, and photobooks",
+        "Learned how to handle various types of customers and gained better customer service skills."
+      ]
+    }
+  ],
+   "//volunteer": [
+    {
+      "//organization": "Center for Renewable Energy and Island Sustainability",
+      "//website": "http://manoa.hawaii.edu/reis",
+      "//position": "Software Developer",
+      "//startDate": "2016-01-01",
+      "//endDate": "Present",
+      "//summary": "Lead developer for weather sensing project",
+      "//highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
+      ]
+    },
+    {
+      "//organization": "",
+      "//website": "",
+      "//position": "Professional organization involvement",
+      "//startDate": "",
+      "//endDate": "",
+      "//summary": "",
+      "//highlights": [
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+      ]
+    }
+  ],
+  "//awards": [
+    {
+      "//title": "B+ Scholarship",
+      "//date": "2013-Present",
+      "//awarder": "State of Hawaii",
+      "//summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+    {
+      "//title": "First place",
+      "//date": "2015",
+      "//awarder": "University of Hawaii Micromouse Competition",
+      "//summary": "My team won first place in 2015.  See my portfolio site for more details."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Sudoku Solver || Java | Aaron Lander Ancheta | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/aaron-ancheta.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aaron Lander Ancheta | Professional Portfolio">
+    <meta property="og:url" content="https://aaron-ancheta.github.io/projects/sudoku-solver.html">
+    <meta property="og:title" content="Sudoku Solver || Java | Aaron Lander Ancheta | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/aaron-ancheta.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/rubik.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/base16.dark.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Sudoku Solver || Java | Aaron Lander Ancheta | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Aaron Lander Ancheta</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Sudoku Solver || Java</h1>
+ <p>In my ICS 211 class, we discussed about different data structures and some algorithms. We were using Java as the primary programming language and in one of our homeworks, we were asked to implement a recursive method called <code class="language-plaintext highlighter-rouge">fillSudoku</code> which, as the name suggests, aims to fill a sudoku correctly.</p>
+
+<h2 id="reflection">Reflection</h2>
+<p>It took a lot of work to grasp the concept of recursion initially, as we have been using just a bunch of if-else statements to solve homework problems before learning about recursion. However, when I gained an understanding of how recursion works through a PANDA (one of the ACM Manoa organizations) meeting, I was able to appreciate it more, and I was able to accomplish this particular homework.</p>
+
+<h2 id="code-snippet">Code Snippet</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">fillSudoku</span> <span class="o">(</span><span class="kt">int</span> <span class="o">[]</span> <span class="o">[]</span> <span class="n">sudoku</span><span class="o">)</span>
+  <span class="o">{</span>
+	<span class="c1">// BASE CASE: Check if the sudoku is filled and valid</span>
+	  <span class="c1">// If the sudoku is filled, return the result of the checkSudoku (sudoku, false)</span>
+	  
+	  <span class="k">if</span><span class="o">(</span><span class="nc">SudokuTest</span><span class="o">.</span><span class="na">isFilled</span><span class="o">(</span><span class="n">sudoku</span><span class="o">))</span> <span class="o">{</span>
+		  <span class="k">if</span><span class="o">(</span><span class="n">checkSudoku</span><span class="o">(</span><span class="n">sudoku</span><span class="o">,</span> <span class="kc">false</span><span class="o">))</span> <span class="o">{</span>
+			  <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+		  <span class="o">}</span>
+	  <span class="o">}</span>
+	  
+	  
+	  <span class="c1">// FIND NEXT EMPTY CELL: Search for a cell that is 0</span>
+	  <span class="kt">boolean</span> <span class="n">allFilled</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+	  <span class="kt">int</span> <span class="n">row</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+	  <span class="kt">int</span> <span class="n">col</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+	  
+	  <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">sudoku</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+		  <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">sudoku</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">length</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>
+			  <span class="k">if</span> <span class="o">(</span><span class="n">sudoku</span><span class="o">[</span><span class="n">i</span><span class="o">][</span><span class="n">j</span><span class="o">]</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+				  <span class="n">row</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
+				  <span class="n">col</span> <span class="o">=</span> <span class="n">j</span><span class="o">;</span>
+				  <span class="n">allFilled</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+				  <span class="k">break</span><span class="o">;</span>
+			  <span class="o">}</span>
+		  <span class="o">}</span>
+		  <span class="k">if</span><span class="o">(!</span><span class="n">allFilled</span><span class="o">)</span> <span class="k">break</span><span class="o">;</span>
+	  <span class="o">}</span>
+
+	  <span class="c1">// FIND POSSIBLE VALUES FOR THE EMPTY CELL</span>
+	  <span class="n">java</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">values</span> <span class="o">=</span> <span class="n">getValues</span><span class="o">(</span><span class="n">sudoku</span><span class="o">,</span> <span class="n">row</span><span class="o">,</span> <span class="n">col</span><span class="o">);</span>
+	  
+	  
+	  <span class="c1">// TEST VALUES: Try all possible values from Step 3 and recursively call fillSudoku() with each possible value</span>
+	  <span class="c1">// When we recursively call fillSudoku(), it will return true if we found a valid solution, and false otherwise.</span>
+	  <span class="c1">// If it fillSudoku() returns true, return true for this method call as well</span>
+	  <span class="c1">// Otherwise reset the cell value to 0, and try the next possible value</span>
+	  
+	  <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">values</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+		  <span class="n">sudoku</span><span class="o">[</span><span class="n">row</span><span class="o">][</span><span class="n">col</span><span class="o">]</span> <span class="o">=</span> <span class="n">values</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+		  <span class="k">if</span> <span class="o">(</span><span class="n">fillSudoku</span><span class="o">(</span><span class="n">sudoku</span><span class="o">))</span> <span class="o">{</span>
+			  <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+		  <span class="o">}</span>
+		  <span class="k">else</span> <span class="o">{</span>
+			  <span class="n">sudoku</span><span class="o">[</span><span class="n">row</span><span class="o">][</span><span class="n">col</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		  <span class="o">}</span>
+	  <span class="o">}</span>
+	  
+	  <span class="c1">// RETURN FALSE: If we cannot return true during the above code, it means we can't solve the sudoku</span>
+	 <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+  <span class="o">}</span>
+
+</code></pre></div></div>
+<h2 id="result">Result</h2>
+<p><img width="300px" src="../img/project-photos/sudoku-sol.png" alt="sudoku-solver-result" /></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
